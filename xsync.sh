@@ -470,7 +470,7 @@ function sync_files()
     local xatt;
 
     if [ "$TAR_FROM_FUSE" = "yes" ]; then
-	xatt="--xattr";
+	xatt="--xattrs";
     else
 	xatt=;
     fi
